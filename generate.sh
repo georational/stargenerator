@@ -4,6 +4,6 @@ while IFS=, read place ndd; do
 	url="$prefixe$ndd"
 	echo $place ;date
 	echo $url
-	bin/phantomjs my_loadspeed_v6.js $url
+	bin/phantomjs loadspeed.js $url
 done <top-1m.csv
 done
