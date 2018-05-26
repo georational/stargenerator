@@ -1,11 +1,11 @@
 # Stargenerator
-Generates DNS and web traffic by loading webpages from the Top 1M of Alexa. 
+Generates DNS and web traffic by loading web pages from the Top 1M of Alexa. 
 Forked from **lcpdn/traffic_generator**
 
 
 * Download PhantomJS from http://phantomjs.org/download.html
 * Unzip the files 
-* Copy the Stargenerator files at the root of your PhantomJS directory
+* Copy the Stargenerator files to the root of your PhantomJS directory
 * Execute ./generate.sh with
 `nohup ./generate.sh > pictures/stargenerator.txt &`
 * Timer preset to execute between 0.01AM and 6.59AM
