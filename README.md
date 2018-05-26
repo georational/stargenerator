@@ -1,12 +1,12 @@
-# traffic-generator
+# Stargenerator
 Generates DNS traffic by loading webpages from the Top 1M of Alexa
 
 ##Requirements:
 * Download PhantomJS from http://phantomjs.org/download.html
 * Unzip the files 
-* COpy the traffic-generator files at the root of your phantomjs directory
-* Execute ./generator.sh
+* Copy the stargenerator files at the root of your phantomjs directory
+* Execute ./generate.sh with
+nohup ./generate.sh > pictures/stargenerator.txt &
 
 
-##Note
-You can download a recent version of Alexa Top 1M websites at http://s3.amazonaws.com/alexa-static/top-1m.csv.zip
+
