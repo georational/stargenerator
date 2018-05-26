@@ -1,5 +1,6 @@
 # Stargenerator
-Generates DNS traffic by loading webpages from the Top 1M of Alexa. Forked from **lcpdn/traffic_generator**.
+Generates DNS traffic by loading webpages from the Top 1M of Alexa. 
+Forked from **lcpdn/traffic_generator**.
 
 
 * Download PhantomJS from http://phantomjs.org/download.html
