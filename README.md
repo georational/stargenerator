@@ -1,5 +1,6 @@
 # Stargenerator
 Generates DNS traffic by loading webpages from the Top 1M of Alexa. 
+
 Forked from **lcpdn/traffic_generator**.
 
 
@@ -10,6 +11,7 @@ Forked from **lcpdn/traffic_generator**.
 `nohup ./generate.sh > pictures/stargenerator.txt &`
 * Timer preset to execute between 0.01AM and 6.59AM
 * Check progress with `tail -f ~/phantomjs-raspberrypi/pictures/stargenerator.txt` 
+
 and `ls ~/phantomjs-raspberrypi/pictures | wc -l`
 
 ## Further reading
