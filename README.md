@@ -1,5 +1,5 @@
 # Stargenerator
-Generates DNS traffic by loading webpages from the Top 1M of Alexa. 
+Generates DNS and web traffic by loading webpages from the Top 1M of Alexa. 
 Forked from **lcpdn/traffic_generator**
 
 
