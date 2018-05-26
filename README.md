@@ -8,7 +8,7 @@ Forked from **lcpdn/traffic_generator**
 * Copy the Stargenerator files to the root of your PhantomJS directory
 * Execute ./generate.sh with
 `nohup ./generate.sh > pictures/stargenerator.txt &`
-* Timer preset to execute between 0.01AM and 6.59AM
+* Timer preset to execute between 1.00AM and 6.59AM
 * Check progress with `tail -f ~/phantomjs-raspberrypi/pictures/stargenerator.txt` 
 and `ls ~/phantomjs-raspberrypi/pictures | wc -l`
 
