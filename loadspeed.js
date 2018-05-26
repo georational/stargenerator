@@ -12,7 +12,7 @@ page.onResourceTimeout = function (e) {
   phantom.exit(1);
 };
 
-if (hour > 0 && hour < 7) // Timer, to run between 0.01am and 6.59am
+if (hour > 0 && hour < 7) // Timer, to run between 1.00AM and 6.59AM
 {
 
 if (system.args.length === 1) {
