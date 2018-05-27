@@ -3,14 +3,13 @@ Generates web and DNS traffic by loading web pages from the Top 1M of Alexa.
 Forked from **lcpdn/traffic_generator**
 
 
-* Download PhantomJS from http://phantomjs.org/download.html
-* Unzip the files 
+* Download/unzip or clone PhantomJS  
 * Copy the Stargenerator files to the root of your PhantomJS directory
-* Execute ./generate.sh with
+* Execute ./generate.sh via
 `nohup ./generate.sh > pictures/stargenerator.txt &`
+* Saves screen shots to `pictures/`
 * Timer preset to execute between 1.00AM and 6.59AM
-* Check progress with `tail -f ~/phantomjs-raspberrypi/pictures/stargenerator.txt` 
-and `ls ~/phantomjs-raspberrypi/pictures | wc -l`
+* Check progress with `tail -f ~ pictures/stargenerator.txt` and `pictures | wc -l`
 
 ## Further reading
 
@@ -19,8 +18,5 @@ and `ls ~/phantomjs-raspberrypi/pictures | wc -l`
 [Investigatory Powers Act 2016](https://en.wikipedia.org/wiki/Investigatory_Powers_Act_2016)
 
 [The Star Generator](http://spacequest.wikia.com/wiki/Star_Generator)
-
-
-
 
 
