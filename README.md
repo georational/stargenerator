@@ -9,7 +9,7 @@ Forked from **lcpdn/traffic_generator**
 `nohup ./generate.sh > pictures/stargenerator.txt &`
 * Saves screen shots to `pictures/`
 * Timer preset to execute between 1.00AM and 6.59AM
-* Check progress with `tail -f ~ pictures/stargenerator.txt` and `pictures | wc -l`
+* Check progress with `tail -f pictures/stargenerator.txt` and `ls pictures/ | wc -l`
 
 ## Further reading
 
